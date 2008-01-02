@@ -11,6 +11,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/MasonX/%{realname}-%{vers
 BuildRequires:	perl(Apache::Session::Wrapper)
 BuildRequires:  perl(Module::Build)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This module integrates "Apache::Session" into Mason by adding
