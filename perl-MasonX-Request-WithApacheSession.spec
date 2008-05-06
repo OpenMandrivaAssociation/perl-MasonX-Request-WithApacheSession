@@ -2,8 +2,8 @@
 
 Summary:	MasonX::Request::WithApacheSession - Add a session to the Mason Request object
 Name:           perl-%{realname}
-Version:        0.30
-Release:        %mkrel 3
+Version:        0.31
+Release:        %mkrel 1
 License:	GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{realname}
