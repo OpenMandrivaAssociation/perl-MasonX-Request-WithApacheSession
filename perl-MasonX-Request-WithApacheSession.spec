@@ -46,3 +46,36 @@ session.
 %{perl_vendorlib}/MasonX/Request/WithApacheSession.pm
 %{perl_vendorlib}/MasonX/Request/WithMultiSession.pm
 %{_mandir}/man3/*
+
+
+%changelog
+* Wed Jul 29 2009 J√©r√¥me Quelin <jquelin@mandriva.org> 0.310.0-1mdv2010.0
++ Revision: 403849
+- rebuild using %%perl_convert_version
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.31-2mdv2009.0
++ Revision: 268590
+- rebuild early 2009.0 package (before pixel changes)
+
+* Tue May 06 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.31-1mdv2009.0
++ Revision: 202325
+- update to new version 0.31
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu May 04 2006 Nicolas LÈcureuil <neoclust@mandriva.org> 0.30-3mdk
+- Add BuildRequires
+
+* Wed May 03 2006 Nicolas LÈcureuil <neoclust@mandriva.org> 0.30-2mdk
+- Fix According to perl Policy
+	- BuildRequires
+	- Source URL
+
+* Fri Jan 27 2006 Oden Eriksson <oeriksson@mandriva.com> 0.30-1mdk
+- initial Mandriva package
+
